@@ -47,10 +47,7 @@ $(document).ready(function(){
         backSpeed: 60,
         loop: true
     });
-    var blink = document.getElementById('blink');
-    setInterval(function() {
-      blink.style.opacity = (blink.style.opacity == 0 ? 1 : 0);
-    }, 1000);
+    
 
     // owl carousel script
     $('.carousel').owlCarousel({
