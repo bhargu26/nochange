@@ -306,6 +306,21 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+.services .serv-content .card a {
+    display: block;
+    color: white;
+    /* background-color: crimson; */
+    text-decoration: none;
+    margin: 1px 35px;
+    padding: 8px 1px;
+}
+.services .serv-content .card a:hover,
+.services .serv-content .card a:active {
+    color: grey;
+    /* text-decoration: underline;
+    padding: 30px 10px; */
+
+} 
 
 /* skills section styling */
 
@@ -423,6 +438,21 @@ section .title::after{
 .teams .carousel .card:hover img{
     border-color: #fff;
 }
+.teams .carousel .card a {
+    display: block;
+    color: black;
+    /* background-color: crimson; */
+    text-decoration: none;
+    margin: 1px 35px;
+    padding: 8px 1px;
+}
+.teams .carousel .card a:hover,
+.teams .carousel .card a:active {
+    color: grey;
+    /* text-decoration: underline;
+    padding: 30px 10px; */
+
+} 
 .owl-dots{
     text-align: center;
     margin-top: 20px;
