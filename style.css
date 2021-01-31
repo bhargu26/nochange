@@ -192,6 +192,13 @@ section .title::after{
     color: crimson;
     font-weight: 500;
 }
+#blink {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color:crimson;
+    transition: 0.4s;
+  }
 .home .home-content a{
     display: inline-block;
     background: crimson;
@@ -262,11 +269,12 @@ section .title::after{
 .teams .title::before{
     background: #fff;
 }
-.services .title::after,
+
+/* .services .title::after,
 .teams .title::after{
 /*     background: #111;
     content: "what i provide"; */
-}
+} */
 .services .serv-content .card{
     width: calc(33% - 20px);
     background: #222;
